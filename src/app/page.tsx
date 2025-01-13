@@ -50,22 +50,19 @@ export default function Home() {
 
   const slides = [
     {
-      image:
-        "http://atura.like-themes.com/wp-content/uploads/2021/12/SLIDE_01.jpg",
+      image: "/images/SLIDE_01.jpg",
       smallText: "diseño de uñas",
       title: "ARTE EN MANICURA",
       description: "Estilos creativos. Siempre en tendencia. La mejor calidad.",
     },
     {
-      image:
-        "http://atura.like-themes.com/wp-content/uploads/2021/12/SLIDE_03.jpg",
+      image: "/images/SLIDE_03.jpg",
       smallText: "diseño de uñas",
       title: "ARTE EN MANICURA",
       description: "Estilos creativos. Siempre en tendencia. La mejor calidad.",
     },
     {
-      image:
-        "http://atura.like-themes.com/wp-content/uploads/2021/12/SLIDE_04.jpg",
+      image: "/images/SLIDE_04.jpg",
       smallText: "cuidado profesional",
       title: "SERVICIO EXPERTO",
       description: "Tratamientos de lujo para tus manos y uñas.",
@@ -94,8 +91,7 @@ export default function Home() {
         ref={sectionRef}
         className="relative h-[600px] bg-fixed bg-cover bg-center"
         style={{
-          backgroundImage:
-            "url(http://atura.like-themes.com/wp-content/uploads/2021/12/video_parallax.jpg)",
+          backgroundImage: "url(/images/video_parallax.jpg)",
         }}
       >
         <div className="absolute inset-0 bg-black/50" />
@@ -482,14 +478,14 @@ export default function Home() {
             <div className="grid grid-cols-2 gap-6">
               <div className="relative h-[300px] sm:h-[400px]">
                 <img
-                  src="http://atura.like-themes.com/wp-content/uploads/2021/12/about_01-736x1024.jpg"
+                  src="/images/about_01-736x1024.jpg"
                   alt="Nail design showcase"
                   className="object-cover w-full h-full"
                 />
               </div>
               <div className="relative h-[300px] sm:h-[400px] mt-12">
                 <img
-                  src="http://atura.like-themes.com/wp-content/uploads/2021/12/about_02-736x1024.jpg"
+                  src="/images/about_02-736x1024.jpg"
                   alt="Nail art showcase"
                   className="object-cover w-full h-full"
                 />
@@ -602,7 +598,7 @@ export default function Home() {
               {/* Regular Manicure */}
               <div className="flex items-center gap-6">
                 <img
-                  src="http://atura.like-themes.com/wp-content/uploads/2021/12/price_01-110x110.jpg"
+                  src="/images/price_01-150x150.jpg"
                   alt="Regular Manicure"
                   className="w-20 h-20 rounded-full object-cover"
                 />
@@ -621,7 +617,7 @@ export default function Home() {
               {/* Nail Extension */}
               <div className="flex items-center gap-6">
                 <img
-                  src="http://atura.like-themes.com/wp-content/uploads/2021/12/price_02-150x150.jpg"
+                  src="/images/price_02-150x150.jpg"
                   alt="Nail Extension"
                   className="w-20 h-20 rounded-full object-cover"
                 />
@@ -642,7 +638,7 @@ export default function Home() {
               {/* Nail Protection */}
               <div className="flex items-center gap-6">
                 <img
-                  src="http://atura.like-themes.com/wp-content/uploads/2021/12/price_03-150x150.jpg"
+                  src="/images/price_03-150x150.jpg"
                   alt="Nail Protection"
                   className="w-20 h-20 rounded-full object-cover"
                 />
@@ -663,7 +659,7 @@ export default function Home() {
               {/* Hand Massage */}
               <div className="flex items-center gap-6">
                 <img
-                  src="http://atura.like-themes.com/wp-content/uploads/2021/12/price_04-150x150.jpg"
+                  src="/images/price_04-150x150.jpg"
                   alt="Hand Massage"
                   className="w-20 h-20 rounded-full object-cover"
                 />
@@ -685,7 +681,7 @@ export default function Home() {
               {/* Pedicure */}
               <div className="flex items-center gap-6">
                 <img
-                  src="http://atura.like-themes.com/wp-content/uploads/2021/12/price_05-150x150.jpg"
+                  src="/images/price_05-150x150.jpg"
                   alt="Pedicure"
                   className="w-20 h-20 rounded-full object-cover"
                 />
@@ -704,7 +700,7 @@ export default function Home() {
               {/* Skin Recovery */}
               <div className="flex items-center gap-6">
                 <img
-                  src="http://atura.like-themes.com/wp-content/uploads/2021/12/price_06-150x150.jpg"
+                  src="/images/price_06-150x150.jpg"
                   alt="Skin Recovery"
                   className="w-20 h-20 rounded-full object-cover"
                 />
@@ -725,7 +721,7 @@ export default function Home() {
               {/* Spa Care */}
               <div className="flex items-center gap-6">
                 <img
-                  src="http://atura.like-themes.com/wp-content/uploads/2021/12/price_07-150x150.jpg"
+                  src="/images/price_07-150x150.jpg"
                   alt="Spa Care"
                   className="w-20 h-20 rounded-full object-cover"
                 />
@@ -744,7 +740,7 @@ export default function Home() {
               {/* Unique Design */}
               <div className="flex items-center gap-6">
                 <img
-                  src="http://atura.like-themes.com/wp-content/uploads/2021/12/price_08-150x150.jpg"
+                  src="/images/price_08-150x150.jpg"
                   alt="Unique Design"
                   className="w-20 h-20 rounded-full object-cover"
                 />
