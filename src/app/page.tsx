@@ -808,7 +808,7 @@ export default function Home() {
 
                 <div className="flex flex-col items-center">
                   <img
-                    src="http://atura.like-themes.com/wp-content/uploads/2019/06/testimonials-11-110x110.jpg"
+                    src="/images/testimonials-11-110x110.jpg"
                     alt="Client"
                     className="w-16 h-16 rounded-full object-cover mb-4"
                   />
@@ -839,7 +839,7 @@ export default function Home() {
 
                 <div className="flex flex-col items-center">
                   <img
-                    src="http://atura.like-themes.com/wp-content/uploads/2019/06/testimonials-07-110x110.jpg"
+                    src="/images/testimonials-07-110x110.jpg"
                     alt="Client"
                     className="w-16 h-16 rounded-full object-cover mb-4"
                   />
@@ -859,7 +859,7 @@ export default function Home() {
             {/* Left Image */}
             <div className="relative h-[600px]">
               <img
-                src="http://atura.like-themes.com/wp-content/uploads/2021/12/promo-983x1024.jpg"
+                src="/images/promo-983x1024.jpg"
                 alt="Manicure service"
                 className="w-full h-full object-cover"
               />
